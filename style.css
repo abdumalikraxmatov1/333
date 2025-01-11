@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    background-color: black;
+    padding: 30px 0;
+}
+.h-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-t{
+    display: flex;
+    align-items: center;
+    justify-content: 
+    space-between;
+    gap: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+header h1{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header input{
+    padding: 10px 18px;
+    font-size: 15px;
+}
+
+.s1{
+    background-image: url(./img/slider2\ 2\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.s1t h1{
+    font-size: 40px;
+    color: white;    
+}
+.btn{
+    background-color: yellowgreen;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    margin-top: 140px;
+}
+
+.card{
+    width: 290px;
+    height: 302px;
+    box-shadow: 0px 17px 27px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.s2 h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0 40px;
+}
+.card h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.s3ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s3t h1{
+  color: rgba(103, 185, 0, 1);
+  font-size: 55px;
+}
+.s3t p{
+    font-size: 18px;
+}
+.bt{
+    background-color: yellowgreen;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+}
+.s3{
+    margin-top: 90px;
+}
+
+.otaa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.otaa p{
+    font-size: 20px;
+}
+footer{
+    padding: 30px 0;
+}
